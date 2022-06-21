@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    background-color: rgb(255, 127, 223);
+    overflow: scroll
+}
+
+h1 {
+    font-family: 'Potta One', cursive;
+    font-size: 70px;
+    margin: 0.2em;
+    color: rgb(66, 66, 66);
+}
+
+h2 {
+    margin: 20px;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+form span {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    min-width: 50px;
+}
+
+input[type="number"] {
+    width: 10em;
+    padding: 8px;
+}
+
+button {
+    padding: 15px 15px;
+    text-transform: capitalize;
+}
